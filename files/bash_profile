@@ -1,0 +1,25 @@
+# .bash_profile
+
+# Aliases and functions.
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# Paths.
+export PATH=$PATH:~/.local/bin:~/.repos/scr/ipts
+
+# Build flags.
+export CFLAGS="-march=native -O3 -pipe"
+export CXXFLAGS="-march=native -O3 -pipe"
+export MAKEFLAGS="-j8"
+
+# Programs.
+export HISTCONTROL=erasedups:ignoreboth
+export HISTSIZE=
+export LESSHISTFILE=-
+export NNN_OPENER=opn
+# export PF_INFO="title os host kernel uptime pkgs memory palette"
+
+# Locales.
+export LC_COLLATE="C"
+
+# Miscellaneous.
+export SCREEN_RES=1600x900

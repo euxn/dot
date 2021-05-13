@@ -1,0 +1,5 @@
+#!/bin/sh
+
+xwallpaper --zoom ~/pictures/wall/papers/wallhaven-j5p23m.jpg
+
+exec bspwm

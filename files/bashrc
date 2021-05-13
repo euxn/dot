@@ -1,0 +1,12 @@
+# .bashrc
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Aliases.
+alias bt='cat /sys/class/power_supply/BAT0/capacity'
+alias ls='ls -A --color=auto --group-directories-first'
+alias fp='flatpak --user'
+
+# Prompt.
+PS1='\W \$ '
